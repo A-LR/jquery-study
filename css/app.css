@@ -1,0 +1,18 @@
+
+.wrap>ul>li {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    background: palevioletred;
+
+}
+.wrap ul >li>ul {
+    list-style: none;
+    display: none;
+    position: absolute;
+    width: 150px;
+    left: -14px;
+    top: 25px;
+
+}
